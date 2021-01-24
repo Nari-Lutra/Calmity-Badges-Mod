@@ -4,9 +4,9 @@ package io.github.narilutra.calamitybadgesmod.items;
 import io.github.narilutra.calamitybadgesmod.IHasModel;
 import io.github.narilutra.calamitybadgesmod.Main;
 import io.github.narilutra.calamitybadgesmod.init.ModItems;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemSimpleFoiled;
 
-public class BadgeItem extends Item implements IHasModel
+public class BadgeItem extends ItemSimpleFoiled implements IHasModel
 {
 	private String regID;
 	
