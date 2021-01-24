@@ -1,7 +1,7 @@
 
-package Main;
+package io.github.narilutra.calmitybadgesmod;
 
-import Main.init.ModItems;
+import io.github.narilutra.calmitybadgesmod.init.ModItems;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;

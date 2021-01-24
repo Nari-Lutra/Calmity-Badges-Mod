@@ -1,8 +1,8 @@
 
-package Main.init;
+package io.github.narilutra.calmitybadgesmod.init;
 
-import Main.Reference;
-import Main.items.ItemBase;
+import io.github.narilutra.calmitybadgesmod.Reference;
+import io.github.narilutra.calmitybadgesmod.items.ItemBase;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;

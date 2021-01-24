@@ -1,5 +1,5 @@
 
-package Main;
+package io.github.narilutra.calmitybadgesmod;
 
 public class Reference 
 {

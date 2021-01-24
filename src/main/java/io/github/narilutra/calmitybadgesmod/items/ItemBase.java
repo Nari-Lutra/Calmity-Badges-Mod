@@ -1,5 +1,5 @@
 
-package Main.items;
+package io.github.narilutra.calmitybadgesmod.items;
 
 import net.minecraft.item.Item;
 
