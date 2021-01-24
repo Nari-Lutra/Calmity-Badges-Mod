@@ -1,0 +1,16 @@
+[
+{
+  "modid": "calamitybadges",
+  "name": "Pixelmon Calamity Version Custom Badges",
+  "description": "Simply adds some custom Gym Badges for my modded Pixelmon server.",
+  "version": "0.0.1",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Nari_Lutra"],
+  "credits": "Forge Team, for making this possible; Nari_Lutra and Silivek, for the code; Halyo_Alex, for the BLOODY AMAZING textures",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
