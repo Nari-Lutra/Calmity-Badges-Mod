@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "calamitybadges:items/nightweaver_badge"
+     }
+}

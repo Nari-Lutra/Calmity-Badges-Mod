@@ -6,16 +6,16 @@ import io.github.narilutra.calamitybadgesmod.Main;
 import io.github.narilutra.calamitybadgesmod.init.ModItems;
 import net.minecraft.item.Item;
 
-public class ItemBase extends Item implements IHasModel
+public class BadgeItem extends Item implements IHasModel
 {
 	private String regID;
 	
-    public ItemBase(String name)
+    public BadgeItem(String name)
     {
         setUnlocalizedName(name);
         setRegistryName(name);
         regID = name;
-        setCreativeTab(Main.tabCalamity);
+        setCreativeTab(Main.tabBadge);
         
         ModItems.ITEMS.add(this);
     }

@@ -42,7 +42,15 @@ public class Main
         System.out.println(Reference.MODID + ":postInit");
     }
     
-    public static CreativeTabs tabCalamity = new CreativeTabs("tab_calamity") {
+    public static CreativeTabs tabBadge = new CreativeTabs("tab_calamity_badge") {
+    	
+		@Override
+		public ItemStack getTabIconItem() {
+			return new ItemStack(ModItems.TITAN_BADGE);
+		}
+	};
+	
+	public static CreativeTabs tabSymbol = new CreativeTabs("tab_calamity_symbol") {
     	
 		@Override
 		public ItemStack getTabIconItem() {

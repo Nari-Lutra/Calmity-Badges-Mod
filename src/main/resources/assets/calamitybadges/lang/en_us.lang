@@ -1,2 +1,7 @@
-item.titanbadge.name=Titan Badge
-itemGroup.tab_calamity=Calamity Badges
+item.titan_badge.name=Titan Badge
+item.storm_badge.name=Storm Badge
+item.permafrost_badge.name=Permafrost Badge
+item.nightweaver_badge.name=Nightweaver Badge
+
+itemGroup.tab_calamity_badge=Calamity Badges
+itemGroup.tab_calamity_symbol=Calamity Symbols
