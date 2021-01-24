@@ -4,6 +4,7 @@ package io.github.narilutra.calmitybadgesmod.init;
 import io.github.narilutra.calmitybadgesmod.Reference;
 import io.github.narilutra.calmitybadgesmod.items.ItemBase;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
@@ -20,7 +21,7 @@ public class ModItems
 
     public static void init()
         {
-            titanbadge = new ItemBase("titanbadge");
+            titanbadge = new ItemBase("titanbadge").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1);
         }
 
 @SubscribeEvent
